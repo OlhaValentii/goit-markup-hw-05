@@ -783,11 +783,8 @@ body {
 /* Modal window */
 .backdrop {
     position: fixed;
-    display: flex;
-    justify-content: center;
     top: 0;
     left: 0;
-    z-index: 1000;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -805,7 +802,7 @@ body {
     min-width: 528px;
     min-height: 581px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: 4px 4px 8px rgba(55, 57, 63, 0.203);
     animation-name: animate30;
     animation-duration: 1000ms;
